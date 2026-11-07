@@ -1,0 +1,1 @@
+"""Issue Desk: standalone application."""

@@ -1,0 +1,38 @@
+{
+  "app": "issue-desk",
+  "mode": "tickets",
+  "source": "Michaelhoang8/portfolio-lab",
+  "backend_definitions": {
+    "services": [
+      "_snapshot_rows",
+      "assignment",
+      "issue_audit_csv",
+      "snapshot",
+      "ticket_archive",
+      "ticket_create",
+      "ticket_details",
+      "ticket_move"
+    ],
+    "validation": [
+      "ConflictError",
+      "NotFoundError",
+      "ValidationError",
+      "choice",
+      "integer",
+      "text"
+    ],
+    "data_apps": [
+      "safe_csv"
+    ],
+    "db": [
+      "SCHEMA",
+      "connect",
+      "initialize",
+      "rows"
+    ],
+    "json_input": [
+      "decode",
+      "read_exact"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "path": "/api/tickets",
+  "body": {
+    "title": "Independent issue",
+    "description": "Standalone smoke test",
+    "priority": "high"
+  }
+}
