@@ -17,6 +17,10 @@ Create records using the forms. This app starts with an empty, independent datab
 
 SQLite state lives in `data/issue-desk.db` and is ignored by Git. `--database /path/to/app.db` selects another database. Uploaded analysis input is processed in memory. No other repository or shared service is required.
 
+## Interface
+
+The board uses the full workspace width with separate backlog, active, and done columns. New issues open in a dialog; activity and audit export have a separate panel. Cards shorten descriptions until their inline editor opens, while preserving draft and concurrency handling. Search and priority remain beside the board, with date, archive, and sorting controls in View options. On mobile, the columns scroll inside the board.
+
 ## API example
 
 `examples/request.json` contains a fictional request body and its endpoint. Browser analysis requests use `Content-Type: application/json` and `X-Portfolio-Client: browser`; Notes requests use `X-API-Key`. All routes are local to this app.
